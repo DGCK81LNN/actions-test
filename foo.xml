@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!DOCTYPE boorulogic>
+<Image>
+  <Source>https://chan.sankakucomplex.com/post/show/24040619</Source>
+  <Nswf />
+  <Attribute name="creator" content="miyako (naotsugu)" />
+  <Tag name="indoors" />
+  <Character id="a">
+    <Attribute name="sex" content="female" />
+    <Feature name="anus"></Feature>
+    <Feature name="archway of venus"></Feature>
+    <Feature name="clavicle"></Feature>
+    <Feature name="crotch"></Feature>
+    <Feature name="eyes">
+      <Attribute name="color" content="red" />
+    </Feature>
+    <Feature name="hair">
+      <Attribute name="color" content="blonde" />
+      <Attribute name="length" content="medium" />
+      <Attribute name="length" content="short" />
+    </Feature>
+    <Feature name="navel"></Feature>
+    <Feature name="nipples"></Feature>
+    <Feature name="thighs"></Feature>
+    <Feature name="upper teeth"></Feature>
+    <Feature name="vagina">
+      <Feature name="cleft of venus"></Feature>
+    </Feature>
+    <Tag name="blush" />
+    <Tag name="completely nude" />
+    <Tag name="hair between eyes" />
+    <Tag name="open mouth" />
+    <Tag name="paipan" />
+    <Tag name="spread legs" />
+    <Tag name="straddling" />
+    <Tag name="young" />
+    <Tag name="loli" />
+    <Tag name="tomboy" />
+    <Action name="holding" idref="1" />
+  </Character>
+  <Character id="b">
+    <Attribute name="sex" content="male" />
+    <Feature name="clavicle"></Feature>
+    <Feature name="crotch"></Feature>
+    <Feature name="eyes">
+      <Attribute name="color" content="brown" />
+    </Feature>
+    <Feature name="foreskin"></Feature>
+    <Feature name="hair">
+      <Attribute name="color" content="black" />
+      <Attribute name="color" content="brown" />
+      <Attribute name="length" content="long" />
+    </Feature>
+    <Feature name="nipples"></Feature>
+    <Feature name="penis">
+      <Tag name="flaccid" />
+    </Feature>
+    <Feature name="testicles"></Feature>
+    <Feature name="thighs"></Feature>
+    <Tag name="arm support" />
+    <Tag name="open mouth" />
+    <Tag name="blush" />
+    <Tag name="completely nude" />
+    <Tag name="leaning back" />
+    <Tag name="shota" />
+    <Tag name="spread legs" />
+    <Tag name="straddling" />
+    <Tag name="trap" />
+    <Action name="looking at" idref="a" />
+  </Character>
+  <Object name="game controller" id="1"></Object>
+  <Object name="pantsu" id="2">
+    <Tag name="bow panties" />
+    <Attribute name="color" content="black" />
+    <Action name="around one leg" idref="a" />
+  </Object>
+  <Object name="pantsu" id="3">
+    <Attribute name="color" content="black" />
+    <Action name="around one leg" idref="b" />
+  </Object>
+  <Relation name="reverse cowgirl position">
+    <Argument name="top" idref="a" />
+    <Argument name="bottom" idref="b" />
+  </Relation>
+</Image>
