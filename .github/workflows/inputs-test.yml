@@ -12,4 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo ${{ inputs.tag }}
+      - name: display inputs.tag
+        run: echo ${{ inputs.tag }}
+      - name: display github.event.inputs.tag
+        run: echo ${{ github.event.inputs.tag }}
