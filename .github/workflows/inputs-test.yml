@@ -1,0 +1,15 @@
+name: Inputs Test
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        type: string
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo ${{ inputs.tag }}
