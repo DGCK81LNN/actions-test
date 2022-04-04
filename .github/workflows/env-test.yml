@@ -1,0 +1,9 @@
+name: Env testing
+on:
+  workflow_dispatch: {}
+
+jobs:
+  dump_env_to_log:
+    runs-on: ubuntu-latest
+    steps:
+      - run: printenv
