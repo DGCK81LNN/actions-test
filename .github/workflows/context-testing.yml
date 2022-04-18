@@ -1,5 +1,8 @@
 name: Context testing
 on:
+  push:
+    paths:
+    - '.github/workflows/context-testing.yml'
   workflow_dispatch:
     inputs:
       foo:
